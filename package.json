@@ -1,0 +1,26 @@
+{
+  "name": "rn-phone-number-mask",
+  "version": "1.0.0",
+  "description": "US telephone mask for text input",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julianbonomini/rn-phone-number-mask.git"
+  },
+  "keywords": [
+    "React-Native",
+    "Phone",
+    "Phone-Number",
+    "Mask",
+    "Phone-Mask"
+  ],
+  "author": "Julian Bonomini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/julianbonomini/rn-phone-number-mask/issues"
+  },
+  "homepage": "https://github.com/julianbonomini/rn-phone-number-mask#readme"
+}
