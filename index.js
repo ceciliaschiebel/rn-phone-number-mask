@@ -7,7 +7,9 @@ export default class PhoneNumberMask extends React.Component {
     super(props)
     this.state = {
       value: '',
-      maxLength: this.props.maxLength ? this.props.maxLength : 14
+      maxLength: this.props.maxLength ? this.props.maxLength : 14,
+      containerStyle: this.props.containerStyle ? this.props.containerStyle : {},
+      style: this.props.style ? this.props.style : {}
     }
   }
 
@@ -20,8 +22,8 @@ export default class PhoneNumberMask extends React.Component {
 
   render() {
     return (
-      <View style={this.props.containerStyle}>
-        <TextInput style={this.props.inputStyle} onChangeText={this.onChange} value={this.state.value} maxLength={this.state.maxLength} />
+      <View style={this.state.containerStyle}>
+        <TextInput style={this.state.inputStyle} onChangeText={this.onChange} value={this.state.value} maxLength={this.state.maxLength} />
       </View>
     )
   }
