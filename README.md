@@ -21,7 +21,7 @@ And use it this way:
 ```javascript
 <PhoneNumberMask
   containerStyle={styles.containerStyle}
-  style={style.inputStyle}
+  style={styles.inputStyle}
   onNumberChange={phoneNumber => this.setState({ phoneNumber })} />
 ```
 
