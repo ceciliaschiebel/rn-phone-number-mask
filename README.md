@@ -7,7 +7,7 @@ US telephone mask for text input
 
 ## Example
 
-    Transforms 1234567890 into (123) 456-7890
+    Transforms 1234567890 into (123) 456-7890 dynamically
 
 ## Usage
 
