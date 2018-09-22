@@ -23,7 +23,7 @@ export default class PhoneNumberMask extends React.Component {
   render() {
     return (
       <View style={this.state.containerStyle}>
-        <TextInput style={this.state.inputStyle} onChangeText={this.onChange} value={this.state.value} maxLength={this.state.maxLength} />
+        <TextInput style={this.state.style} onChangeText={this.onChange} value={this.state.value} maxLength={this.state.maxLength} />
       </View>
     )
   }
